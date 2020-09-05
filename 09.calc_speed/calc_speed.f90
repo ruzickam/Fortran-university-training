@@ -55,7 +55,7 @@ do i = 1, n
   
 end do
 call cpu_time(finish)
-!nasobeni matic:______________________
+!matrix multiplication:______________________
 
 speed = finish - start
 perf = (operations_number / (10**6))/speed
