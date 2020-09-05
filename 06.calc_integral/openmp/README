@@ -1,0 +1,9 @@
+# to compile
+
+$ gfortran -fopenmp -fdefault-integer-8 -O3 integral.f90 -o integralmp
+
+# to execute
+
+$ export OMP_NUM_THREADS=2
+$ ./integralmp
+

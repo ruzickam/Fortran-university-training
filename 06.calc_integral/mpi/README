@@ -1,0 +1,8 @@
+# to compile
+
+$ mpif90 -O3 integral.f90 -o integralmpi
+
+# to execute
+
+$ mpirun -np 2 ./integralmpi
+
